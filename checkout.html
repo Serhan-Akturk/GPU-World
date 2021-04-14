@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
     <title>Project 2</title>
 </head>
 
@@ -32,6 +33,49 @@
             </div>
         </nav>
     </header>
+
+    <form method="GET">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Billing</h3>
+
+                    <input type="text" name="fname" placeholder="Enter first name" size="50" required>
+                    <br><br>
+                    <input type="text" name="lname" placeholder="Enter last name" size="50" required>
+                    <br><br>
+                    <input type="text" name="address" placeholder="Enter address" size="50" required>
+                    <br><br>
+                    <input type="text" name="zip" placeholder="Enter zip code" size="50" required>
+                    <br><br>
+                    <input type="text" name="state" placeholder="Enter state" size="50" required>
+                    <br><br>
+                    <input type="text" name="city" placeholder="Enter city" size="50" required>
+                    <br><br>
+                    <input type="email" name="email" placeholder="Enter your email" size="50" required>
+                    <br><br>
+                    <input type="text" name="pnumber" placeholder="Enter your phone number" size="50" required>
+                    <br><br>
+
+                </div>
+                <div class="col">
+                    <h3>Payment</h3>
+                    <input type="text" name="name" placeholder="Enter name on card" size="50" required>
+                    <br><br>
+                    <input type="text" name="cardnum" placeholder="Enter card number" size="50" required>
+                    <br><br>
+                    <input type="text" name="cvv" placeholder="Enter CVV" required>
+                    <br><br>
+                    <input type="text" name="expire" placeholder="Exp. Month" required>
+                    <br><br>
+                    <h4>Confirm Total Amount: $3025.00</h4>
+                    <br><br>
+                    <button type="submit" name="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 

@@ -1,0 +1,9 @@
+.container {
+    background-color: whitesmoke;
+
+}
+
+input {
+    padding: 3px;
+    outline: 2px solid black;
+}
