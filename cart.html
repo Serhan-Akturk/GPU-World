@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
     <title>Project 2</title>
 </head>
 
@@ -17,7 +18,7 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-4 pb-4">
-            <a class="navbar-brand pr-5" href="#">GPU WORLD</a>
+            <a class="navbar-brand pr-5" href="index.html">GPU WORLD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,11 +29,66 @@
                     <h3><a class="nav-item nav-link" href="about.html">About</a></h3>
                     <h3><a class="nav-item nav-link" href="product.html">Product</a></h3>
                     <h3><a class="nav-item nav-link active" href="cart.html">Cart</a></h3>
-                    <h3><a class="nav-item nav-link" href="checkout.html">Checkout</a></h3>
                 </div>
             </div>
         </nav>
     </header>
+
+    <div class = "center">
+        <h1>Cart</h1>
+    </div>
+    <section class = "cart_container">
+        <div class = "items">
+            <div class = "item_card">
+                <img src="https://cdn.mos.cms.futurecdn.net/s4XSnWxxfAdEjEuGEvQ6kJ-970-80.jpg.webp" alt="">
+                <p class = "item_name">Nvidia GeForce RTX 3080</p>
+                <div class = "item_cardinfo">
+                    <button class = "btn">-</button>
+                    <p>1</p>
+                    <button class = "btn">+</button>
+                </div>
+                <p class = "item_price"><sup>$</sup>700.00</p>
+            </div>
+
+            <div class = "item_card">
+                <img src="https://cdn.mos.cms.futurecdn.net/qJos4NYu8ZNWh7L53qkeH5-970-80.jpg.webp" alt="">
+                <p class = "item_name">AMD Radeon RX 5700</p>
+                <div class = "item_cardinfo">
+                    <button class = "btn">-</button>
+                    <p>1</p>
+                    <button class = "btn">+</button>
+                </div>
+                <p class = "item_price"><sup>$</sup>400.00</p>
+            </div>
+
+            <div class = "item_card">
+                <img src="https://cdn.mos.cms.futurecdn.net/g2A6bccWqN2k8zFw9hGQw5-970-80.jpg.webp" alt="">
+                <p class = "item_name">AMD Radeon Pro VII</p>
+                <div class = "item_cardinfo">
+                    <button class = "btn">-</button>
+                    <p>1</p>
+                    <button class = "btn">+</button>
+                </div>
+                <p class = "item_price"><sup>$</sup>1900.00</p>
+            </div>
+        </div>
+        <div class = "total_amount">
+            <h2>Total</h2>
+            <div>
+                <p>Total: <span>$3000.00</span></p>
+                <p>Tax: <span>$20.00</span></p>
+                <p>Shipping Cost: <span>$5.00</span></p>
+            </div>
+            <hr>
+            <p>Sub Total: <span>$3025.00</span></p>
+            <a href = "checkout.html">Go to Checkout</a>
+        </div>
+    </section>
+
+
+
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
